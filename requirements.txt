@@ -2,6 +2,7 @@ beautifulsoup4==4.9.3
 bidict==0.21.2
 cachelib==0.2.0
 certifi==2021.5.30
+cffi==1.14.5
 chardet==4.0.0
 click==8.0.1
 colorama==0.4.4
@@ -10,6 +11,9 @@ Flask-Cors==3.0.10
 Flask-Session==0.4.0
 Flask-SocketIO==5.1.0
 flatbuffers==1.12
+gevent==21.1.2
+gevent-websocket==0.10.1
+greenlet==1.1.0
 grpcio==1.38.1
 gunicorn==20.1.0
 idna==2.10
@@ -18,6 +22,7 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 MarkupSafe==2.0.1
 opt-einsum==3.3.0
+pycparser==2.20
 python-engineio==4.2.0
 python-socketio==5.3.0
 requests==2.25.1
@@ -29,3 +34,5 @@ urllib3==1.26.6
 Werkzeug==2.0.1
 wincertstore==0.2
 zipp==3.5.0
+zope.event==4.5.0
+zope.interface==5.4.0
